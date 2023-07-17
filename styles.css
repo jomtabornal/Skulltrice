@@ -162,6 +162,6 @@ a[href^="mailto:"]:hover { text-decoration-line: underline; font-weight:inherit;
 .mission_vision section p{
   font-family: var(--txt1);
   font-size: 16px;
-  padding: 15px;
+  padding: 10px;
 }
 
