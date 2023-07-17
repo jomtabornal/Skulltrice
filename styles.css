@@ -103,12 +103,11 @@ a[href^="mailto:"]:hover { text-decoration-line: underline; font-weight:inherit;
   border-radius: 141px 10px;
   box-shadow: 1px 1px 10px 0px #3d91f5, inset -8px -8px 16px 0px #3d56f5, inset 0px 11px 28px 0px rgb(255, 255, 255);
   padding: 50px;
+  background: linear-gradient(90deg,var(--priColor),#6b7de1);
 }
-.mission_vision .mission:hover {
+
+.mission_vision section:hover {
   box-shadow: 1px 1px 10px 0px #3d91f5, inset 8px 8px 16px 0px #3d56f5, inset 0px 11px 28px 0px rgb(255, 255, 255);
-}
-.mission_vision .vision:hover{
-  box-shadow: 1px 1px 3px 0px #3d91f5, inset 8px 8px 16px 0px #3d56f5, inset 0px 11px 28px 0px rgb(255, 255, 255);
 }
 
 .mission_vision section:hover h2{
@@ -116,6 +115,14 @@ a[href^="mailto:"]:hover { text-decoration-line: underline; font-weight:inherit;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.mission_vision section::after{
+  z-index: -1;
+  content: '';
+  position: absolute;
+  inset: 10px;
+  border-radius: 135px 5px;
+  background: #fff;
+  }
 
 .mission_vision .mission::before{
   content: '';
