@@ -79,13 +79,10 @@ a[href^="mailto:"]:hover { text-decoration-line: underline; font-weight:inherit;
   -webkit-text-fill-color: transparent;
 }
 
-
-
 .mv_container{
   margin-top: 100px;
   position: relative;
   height: 750px;
-  
 }
 
 .mission_vision {
