@@ -4,7 +4,7 @@
 }
 @media only screen and (max-width: 1000px){
   .services_boxes {flex-wrap: wrap;}
-  .services_boxes section{width: 33%;}
+  .services_boxes section{width: 48%;}
 }
 @media only screen and (max-width: 800px){
  .services_boxes{flex-direction: column; padding: 10px;}
