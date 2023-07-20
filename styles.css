@@ -84,7 +84,7 @@ body *{
 .mv_container{
   margin-top: 50px;
   position: relative;
-  height: 500px;
+  min-height: 500px;
 }
 
 .mission_vision {
