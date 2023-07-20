@@ -133,7 +133,7 @@ body *{
 .services_container{ margin-top: 50px; padding: 0 0 100px 0; position: relative; }
 .services_boxes{ display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; }
 .services_boxes section{ width: 30%; padding: 20px; position: relative; text-align: center; font-family: var(--txt1); transition: .3s; border: 1px solid black; border-radius: 135px 5px; overflow: hidden; }
-.services_boxes section hr{ width: 0px; transition: 1s; }
+.services_boxes section hr{ width: 0px; transition: 2s; }
 .services_boxes section::before{ content: ''; display: block; margin: auto; background: url("images/services.png"); background-repeat: no-repeat; background-size: contain; height: 60px; width: 60px; position: static; transition: .3s; }
 .services_boxes section:hover hr{ width: 200px; }
 .services_boxes h2{ padding: 10px; font-weight: 700; font-size: 24px; }
