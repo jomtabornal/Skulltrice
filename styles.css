@@ -135,9 +135,7 @@ body *{
 .services_boxes section{ width: 30%; padding: 20px; position: relative; text-align: center; font-family: var(--txt1); transition: .3s; border: 1px solid black; border-radius: 135px 5px; overflow: hidden; }
 .services_boxes section hr{ width: 0px; transition: 1s; }
 .services_boxes section::before{ content: ''; display: block; margin: auto; background: url("images/services.png"); background-repeat: no-repeat; background-size: contain; height: 60px; width: 60px; position: static; transition: .3s; }
-.services_boxes section::after{ content: ''; position: absolute; top: 100%; left: 0; right: 0; bottom: 0; background-color: #3d91f5; border-radius: 135px 5px; z-index: -1; transition: 1s; }
-.services_boxes section:hover::after{ top: 0%; opacity: .5; }
 .services_boxes section:hover hr{ width: 200px; }
 .services_boxes h2{ padding: 10px; font-weight: 700; font-size: 24px; }
-.services_boxes p{ padding: 10px; font-size: 16px; }
+.services_boxes p{padding: 10px; font-size: 16px; }
 .services_boxes section a { position: absolute; inset: 0; }
