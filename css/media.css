@@ -1,4 +1,4 @@
 @media only screen and (max-width : 1000px){
   .mission_vision {flex-direction: column; padding: 20px;}
-  .mission_vision section{width: 100%; }
+  .mission_vision section{width: 100%;}
 }
